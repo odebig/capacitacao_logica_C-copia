@@ -11,10 +11,9 @@
 #include <stdio.h>
 
 int main(){
+    float A = 2.37, B = 3.12, C = 0;
 
-    // crie seu código aqui:
-
-
+    C = A * B;
 
     // validação
     printf("Valor de C para checagem: %f", C);

@@ -11,26 +11,28 @@
 #include <stdio.h>
 
 int main() {
-    int v[5];  // declara um vetor de 5 posições
-    int soma, i;
+    int v[5];
+    int soma = 0, i;
 
     printf("Por favor, digite 5 inteiros:\n");
     for (i = 0; i < 5; i++) {
         printf("%dº valor: ", i + 1);
-        scanf("%d", &v[i]);  // Guarda cada número do vetor
+        scanf("%d", &v[i]);
     }
 
-    // Imprime os números armazenados no vetor
     printf("\nSeus números são:\n");
     for (i = 0; i < 5; i++) {
         printf("v[%d] = %d\n", i, v[i]);
     }
 
-    // Calcula soma dos números do vetor
-    soma = 0;
     for (i = 0; i < 5; i++) {
-        soma += v[i];  // Soma cada número do vetor, conforme seu índice i
+        if((v[i] % 2) == 0){
+            soma += v[i];
+        }else{
+            soma -= v[i];
+        }
     }
+
     printf("A soma dos números é: %d\n", soma);
 
     return 0;

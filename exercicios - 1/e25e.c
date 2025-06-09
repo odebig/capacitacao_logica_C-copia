@@ -17,18 +17,20 @@ int main() {
     int alvo;
     int encontrado = 0;
 
-    printf("Digite um número para buscar no array: ");
+    printf("Digite um número: ");
     scanf("%d", &alvo);
 
-    // Lógica:
+    for(int i = 0; i < tamanho;){
+        if(numeros[i] == alvo){
+            printf("Número presente.\n");
+            encontrado = 1;
+            break;
+        }else{
+            i++;
+        }
+    }
 
-
-    
-
-    // Mensagem de resultado:
-
-
-
+    if(encontrado == 0) printf("Número ausente.\n");
 
     return 0;
 }

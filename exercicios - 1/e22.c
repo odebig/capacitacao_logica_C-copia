@@ -16,14 +16,17 @@ int main() {
     float notas[4];
     float media;
     printf("Digite 4 notas:\n");
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 4; i++){
         scanf("%f", &notas[i]);
+    }
 
-    // Calcule a media usando a função tiraMedia:
+    media = tiraMedia(notas, 4);
 
-
-    // Imprima "Aprovado!" se a média for maior ou igual a 5.95 ou "Reprovado!" se for menor que 5.95:
-        
+    if(media >= 5.95){
+        printf("Aprovado!\n");
+    }else{
+        printf("Reprovado!\n");
+    }
 
     return 0;
 }

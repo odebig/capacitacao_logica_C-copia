@@ -13,16 +13,20 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    // implementação:
+    system("clear");
+    int num;
 
+    printf("Digite um inteiro entre 1 e 10: ");
+    scanf("%d", &num);
 
+    for(int i = 1; i <= 10; i++){
+        int multi = num * i;
 
-
-
-
-
+        printf("%d x %d = %d\n", num, i, multi);
+    }
 
     return 0;
 }

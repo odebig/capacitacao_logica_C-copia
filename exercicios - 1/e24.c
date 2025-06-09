@@ -29,9 +29,9 @@ int main() {
         }
     } while (N <= K);
     
-    // Calcula a combinação (Comb)
+    Comb = fatorial(N);
 
-    
+    printf("Fatorial: %d\n", Comb);
 
     return 0;
 }

@@ -11,15 +11,11 @@
 int main() {
     int numero, resultado;
     printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
 
-    // Leitura do número informado pelo usuário
-    scanf( ??? );
+    resultado = numero * (numero + 1);
 
-    // Cálculo do resultado
-    
-
-    // Exibição do resultado
-    printf( ??? );
+    printf("Numero multiplicado pelo sucessor: %d\n", resultado);
 
     return 0;
 }
