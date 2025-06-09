@@ -11,10 +11,12 @@ int main() {
     float B = 3 / 5;
     int result;
 
-    // Faça a comparação aqui:
+    if(A > B){
+        result = A;
+    }else{
+        result = B;
+    }
 
-
-    // Código de validação
     if (result == 0) {
         printf("O resultado está correto, muito bem!!\n");
     } else {

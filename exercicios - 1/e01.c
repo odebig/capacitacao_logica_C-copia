@@ -9,11 +9,10 @@
     Use sua criatividade para nomear as variáveis,
     considerando quais tipos de dados são adequados.
 */
-int main() {
-    // Declare as variáveis abaixo:
+int main() { 
+    int idade = 21;
+    float peso = 64.3;
+    char nome = "Gabriel";
     
-
-
-
     return 0;
 }

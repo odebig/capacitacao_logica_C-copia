@@ -5,14 +5,18 @@
 #include <stdio.h>
 
 int main() {
-    int i;
+    int i = 0, pares = 0;
 
     printf("Os 10 primeiros números pares são:\n");
     
-    // Implemente a lógica:
+    while(pares < 10){
+        if(i % 2 == 0){
+            printf("%d\n", i);
+            pares++;
+        }
 
-
-
-
+        i++;
+    }
+    
     return 0;
 }

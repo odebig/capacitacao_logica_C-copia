@@ -13,8 +13,11 @@ int main(){
     printf("Digite um número: ");
     scanf("%d", &numero);
 
-    //IF/ELSE:
-
+    if(numero >= 0){
+        printf("O número digitado é positivo.\n");
+    }else{
+        printf("O número digitado é negativo.\n");
+    }
 
     return 0;
 }

@@ -11,19 +11,14 @@
 int main() {
     float base, altura, area;
 
-    printf("Digite a base do triângulo: ");
-    scanf("%f", &base);
-    printf("Digite a altura do triângulo: ");
-    scanf("%f", &altura);
+    printf("Digite a base e altura do triângulo, respectivamente: ");
+    scanf("%f %f", &base, &altura);
 
-    // Calcule a área do triângulo
-    area = ???
+    area = base * altura;
 
-    // Exiba o resultado formatado com duas casas decimais
-    printf( ??? );
+    printf("A área do triangulo é: %.1f\n", area);
 
-    // IF/ELSE para verificar se a área é maior que 30
-    ???
+    (area > 30) ? printf("A área é maior do que 30.\n") : printf("A área não é maior do que 30.\n");
 
     return 0;
 }
