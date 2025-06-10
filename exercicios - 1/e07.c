@@ -22,7 +22,12 @@ int main() {
 
     // Substitua ??? por uma comparação que verifique se o número é par ou ímpar
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     if ( D % 2 == 0 ) {
+=======
+    //D/2 
+    if (D % 2 == 0) { 
+>>>>>>> Stashed changes
 =======
     //D/2 
     if (D % 2 == 0) { 

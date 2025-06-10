@@ -44,10 +44,14 @@ int main() {
     for (i = 1; i <= 10; i++) {
         printf("%d x %d = %d\n", numero, i, numero * i);
     }
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 
         printf("%d x %d = %d\n", num, i, multi);
     }
+=======
+
+>>>>>>> Stashed changes
 
     return 0;
 }

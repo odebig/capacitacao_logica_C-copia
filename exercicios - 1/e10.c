@@ -26,6 +26,9 @@ int main() {
 
     // Exibição do resultado
     printf( "o resultado de %d * %d é: %d\n" , numero, numero +1, resultado); 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     return 0;

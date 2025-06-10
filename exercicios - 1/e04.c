@@ -24,6 +24,9 @@ int main() {
     printf("1º caracter: %c \n", nome );
     printf("2º caracter: %c \n", cidade );
     printf("3º caracter: %c \n", país );
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     return 0;

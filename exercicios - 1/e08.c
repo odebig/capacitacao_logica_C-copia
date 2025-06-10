@@ -14,9 +14,15 @@ int main() {
 
     // Complete conforme o enunciado
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     printf("Variável 1: %d\n", a);
     printf("Váriavel 2: %c\n", b);
     printf("Variável 3: %.2f\n", pi);
+=======
+    printf("valor de a: %d\n" , a);
+    printf("valor de b: %c\n" , b );
+    printf("valor de pi: %.5f\n" , pi );
+>>>>>>> Stashed changes
 =======
     printf("valor de a: %d\n" , a);
     printf("valor de b: %c\n" , b );

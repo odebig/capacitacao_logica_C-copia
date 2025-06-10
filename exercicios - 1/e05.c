@@ -9,10 +9,13 @@
 int main() {
     int a = 0;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     int b = 1;
 
     a = (a != b);
 =======
+=======
+>>>>>>> Stashed changes
     int b = ;
 
     // Inicialize b com um valor:

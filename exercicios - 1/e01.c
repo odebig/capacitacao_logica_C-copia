@@ -10,12 +10,15 @@
     considerando quais tipos de dados são adequados.
 */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 int main() { 
     int idade = 21;
     float peso = 64.3;
     char nome = "Gabriel";
     
 =======
+=======
+>>>>>>> Stashed changes
 #include <stdio.h>
 
 int main() {
@@ -30,6 +33,9 @@ int main() {
     printf("inicial: %c\n", Inicial);
 
  
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     return 0;
 }

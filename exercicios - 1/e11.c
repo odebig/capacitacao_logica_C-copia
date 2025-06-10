@@ -16,6 +16,7 @@
 #include <stdio.h>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 int main(){
     char opcao;
 
@@ -24,6 +25,8 @@ int main(){
 
     switch(opcao){
 =======
+=======
+>>>>>>> Stashed changes
 int main() {
     char opcao;
 
@@ -31,6 +34,9 @@ int main() {
     scanf(" %c", &opcao);  // O espaço antes do %c evita problemas com enter pendente
 
     switch(opcao) {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         case 'A':
             printf("Você escolheu Albert Einstein.\n");
@@ -43,6 +49,7 @@ int main() {
             break;
         default:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             printf("Opção inválida.\n");
             break;
     }
@@ -50,11 +57,17 @@ int main() {
     return 0;
 }
 =======
+=======
+>>>>>>> Stashed changes
             printf("Opção inválida!\n");
     }
 
     return 0;
 }
 
+<<<<<<< Updated upstream
+CONFERIR
+>>>>>>> Stashed changes
+=======
 CONFERIR
 >>>>>>> Stashed changes

@@ -35,6 +35,9 @@ int main() {
         printf("triangulo pqueno\n");
     } 
     
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     return 0;
 }

@@ -12,6 +12,7 @@ int main() {
     int result;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     if(A > B){
         result = A;
     }else{
@@ -19,6 +20,8 @@ int main() {
     }
 
 =======
+=======
+>>>>>>> Stashed changes
     // Faça a comparação aqui:
     result= A>B;
     

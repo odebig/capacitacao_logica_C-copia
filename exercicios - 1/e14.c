@@ -14,6 +14,9 @@ int main() {
 <<<<<<< Updated upstream
 =======
     // Complete o código
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     celsius = (fahrenheit - 32) * 5 / 9;
 
