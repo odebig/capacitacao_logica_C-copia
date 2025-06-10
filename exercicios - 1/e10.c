@@ -13,9 +13,20 @@ int main() {
     printf("Digite um número inteiro: ");
     scanf("%d", &numero);
 
+<<<<<<< Updated upstream
     resultado = numero * (numero + 1);
 
     printf("Numero multiplicado pelo sucessor: %d\n", resultado);
+=======
+    // Leitura do número informado pelo usuário
+    scanf("%d" , &numero);
+
+    // Cálculo do resultado
+    resultado = numero * (numero + 1);
+
+    // Exibição do resultado
+    printf( "o resultado de %d * %d é: %d\n" , numero, numero +1, resultado); 
+>>>>>>> Stashed changes
 
     return 0;
 }

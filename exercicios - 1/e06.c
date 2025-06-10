@@ -13,7 +13,18 @@
 int main(){
     float A = 2.37, B = 3.12, C = 0;
 
+<<<<<<< Updated upstream
     C = A * B;
+=======
+    // crie seu código aqui:
+    float A= 2.35;
+    float B= 7.77;
+    float C;
+
+    C=A*B
+
+
+>>>>>>> Stashed changes
 
     // validação
     printf("Valor de C para checagem: %f", C);

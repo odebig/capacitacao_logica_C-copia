@@ -11,6 +11,10 @@ int main() {
     printf("Digite a temperatura em Fahrenheit: ");
     scanf("%f", &fahrenheit);
 
+<<<<<<< Updated upstream
+=======
+    // Complete o código
+>>>>>>> Stashed changes
     celsius = (fahrenheit - 32) * 5 / 9;
 
     printf("Temperatura em Celsius: %.2f°C\n", celsius);

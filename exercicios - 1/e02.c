@@ -12,9 +12,19 @@ int main() {
     int A = 5, B = 20, C = 0;
     float D = 2.2, E = 0;
 
+<<<<<<< Updated upstream
     C = A + B;
     E = C * D;
 
+=======
+    // Salvar em C o resultado da soma de A e B
+    C= A+B; 
+   
+    // Salvar em E o resultado da multiplicação de C por D
+    E= C*D; 
+
+    // Código de validação
+>>>>>>> Stashed changes
     if (E == 55.0) printf("Parabéns! O valor de E é %.2f e está correto!\n", E);
     else printf("O valor de E é %.2f e está incorreto! Tente novamente!\n", E);
     

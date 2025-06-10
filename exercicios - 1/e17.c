@@ -16,6 +16,7 @@
 #include <stdlib.h>
 
 int main() {
+<<<<<<< Updated upstream
     system("clear");
     int num;
 
@@ -24,6 +25,26 @@ int main() {
 
     for(int i = 1; i <= 10; i++){
         int multi = num * i;
+=======
+    // implementação:
+     int numero, i;
+
+    // Solicita o número ao usuário
+    printf("Digite um número inteiro entre 1 e 10: ");
+    scanf("%d", &numero);
+
+    // Verifica se está no intervalo válido
+    if (numero < 1 || numero > 10) {
+        printf("Número fora do intervalo permitido.\n");
+        return 1; // encerra o programa com erro
+    }
+
+    // Exibe a tabuada
+    printf("Tabuada do %d:\n", numero);
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", numero, i, numero * i);
+    }
+>>>>>>> Stashed changes
 
         printf("%d x %d = %d\n", num, i, multi);
     }

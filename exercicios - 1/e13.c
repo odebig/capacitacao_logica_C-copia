@@ -20,6 +20,7 @@
 int main() {
     int anos, meses, dias, totalDias;
     float totalSemanas;
+<<<<<<< Updated upstream
     
     printf("Digite a quantidade de anos, meses e dias, respectivamente: ");
     scanf("%d %d %d", &anos, &meses, &dias);
@@ -28,6 +29,40 @@ int main() {
     totalSemanas = totalDias / 7;
 
     printf("Já se passaram %.2f semanas e %d dias.\n", totalSemanas, totalDias);
+=======
+
+    // Leitura dos valores informados pelo usuário
+    printf("Informe a quantidade de anos: ");
+    scanf("%d", &anos);
+
+     printf("Informe a quantidade de meses: ");
+    scanf("%d", &meses);
+
+    printf("Informe a quantidade de dias: ");
+    scanf("%d", &dias);
+
+    // Cálculo do total de dias
+     totalDias = (anos * 365) + (meses * 30) + dias;
+
+    // Exibição do total de dias
+    printf("Total de dias: %d\n", totalDias);
+
+    // Cálculo do total de semanas
+    totalSemanas = totalDias / 7.0;
+
+
+    // Exibição do total de dias
+    printf("Total de semanas: %.2f\n", totalSemanas);
 
     return 0;
 }
+    // Cálculo do total de semanas
+
+
+    // Exibição do total de semanas
+    
+>>>>>>> Stashed changes
+
+    return 0;
+
+    DEU RUIM

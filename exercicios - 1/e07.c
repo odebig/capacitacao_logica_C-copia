@@ -21,7 +21,12 @@ int main() {
     scanf("%d", &D);
 
     // Substitua ??? por uma comparação que verifique se o número é par ou ímpar
+<<<<<<< Updated upstream
     if ( D % 2 == 0 ) {
+=======
+    //D/2 
+    if (D % 2 == 0) { 
+>>>>>>> Stashed changes
         printf("O número %d é PAR.\n", D);
     } else {
         printf("O número %d é ÍMPAR.\n", D);
@@ -29,3 +34,5 @@ int main() {
 
     return 0;
 }
+
+DEU RUIM
